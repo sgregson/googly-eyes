@@ -1,3 +1,3 @@
 tasks:
-  - init: yarn install && yarn run build
+  - init: yarn install && npx devcert-cli generate localhost && yarn run build
     command: yarn run start
